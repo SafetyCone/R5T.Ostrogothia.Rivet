@@ -1,0 +1,4 @@
+R5T.Ostrogothia.Rivet.Types - Types library for Rivet organization related functionality.
+
+Goals
+
