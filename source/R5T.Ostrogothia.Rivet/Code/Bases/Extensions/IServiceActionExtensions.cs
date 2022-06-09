@@ -9,7 +9,7 @@ namespace R5T.Ostrogothia.Rivet
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="OrganizationProvider"/> implementation of <see cref="IOrganizationProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="OrganizationProvider"/> implementation of <see cref="IOrganizationProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IOrganizationProvider> AddOrganizationProviderAction(this IServiceAction _)
         {
